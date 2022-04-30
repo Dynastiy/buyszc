@@ -18,7 +18,7 @@
               <ul class="list-unstlyed">
                   <!-- <li> <a target="_blank" href="https://zugacoin.io">Blockmay.com</a> </li> -->
                   <li><router-link to="/login">Login</router-link></li>
-                  <li><router-link to="register">Register</router-link></li>
+                  <li><router-link to="/sign-up">Register</router-link></li>
                   <!-- <li> <a target="_blank" href="https://africanapp.store/">Merchant Wallet</a> </li>
                   <li> <a target="_blank" href="https://samzuga.org">Samzuga Family</a> </li> -->
               </ul>
