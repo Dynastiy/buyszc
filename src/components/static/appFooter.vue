@@ -7,7 +7,7 @@
           <div class="col-lg-4">
             <h4 class="footer--header">About Us</h4>
             <p class="">
-               BUYBNB.IO ACCEPTS PAYMENTS DONE MANUALLY INTO A SPECIFIC BANK ACCOUNTS AND CONFIRMATION IS DONE 10MIN AFTER A SUCCESFUL TRANSACTION. 
+               BUYSZC.COM ACCEPTS PAYMENTS DONE MANUALLY INTO A SPECIFIC BANK ACCOUNTS AND CONFIRMATION IS DONE 3MIN AFTER A SUCCESFUL TRANSACTION. 
             </p>
             
           </div>
@@ -17,7 +17,7 @@
               </h4>
               <ul class="list-unstlyed">
                   <!-- <li> <a target="_blank" href="https://zugacoin.io">Blockmay.com</a> </li> -->
-                  <li><router-link to="/sign-in">Login</router-link></li>
+                  <li><router-link to="/login">Login</router-link></li>
                   <li><router-link to="register">Register</router-link></li>
                   <!-- <li> <a target="_blank" href="https://africanapp.store/">Merchant Wallet</a> </li>
                   <li> <a target="_blank" href="https://samzuga.org">Samzuga Family</a> </li> -->
@@ -37,9 +37,9 @@
                   Social
               </h4>
               <ul class="list-unstlyed d-flex align-items-center" style="gap:10px">
-                  <a target="_blank" href="http://facebook.com/officialbuybnb/"> 
+                  <!-- <a target="_blank" href="http://facebook.com/officialbuybnb/"> 
                   Facebook
-                  </a>
+                  </a> -->
                   <!-- <a target="_blank" href="https://t.me/officialzugacoin"><i class="fa fa-telegram" aria-hidden="true"></i></a> -->
               </ul>
           </div>

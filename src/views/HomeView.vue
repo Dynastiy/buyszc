@@ -142,6 +142,23 @@
             </div>
           </div>
         </div>
+
+
+<!-- HOw it Works -->
+         <section class="how-it-works mt-4">
+        <div class="container">
+            <h2 class="text-center mb-4">How it Works</h2>
+            <div>
+                <p>
+                     Sam Zugacoin is a unique brainchild that aims to rebuild Africa's dying economy by becoming Africa's first coin in equity and investment funding for Africa's government instead of China. Starting a business in Africa can often be a gargantuan task, especially since the prospects of obtaining a loan are few and far between, we will give out loans to aid businesses and encourage investors.
+<pre></pre><b> BUYSZC ACCEPTS PAYMENTS DONE MANUALLY INTO A SPECIFIC BANK ACCOUNTS or BNB Wallets AND CONFIRMATION IS DONE 3MIN AFTER A SUCCESFUL TRANSACTION. </b>
+
+<pre></pre>
+You can logged into your dashboard to monitor your transaction STATUS if SUCCESFULL or PENDING.
+                </p>
+            </div>
+        </div>
+    </section>
       </div>
     </div>
   </div>
