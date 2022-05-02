@@ -15,6 +15,9 @@
               <div class="main--calculator">
                 <!-- First Slide  -->
                 <div class="first--slide" v-show="slide_1">
+                  <p class="small text-danger text-center mb-3 font-weight-bold">
+                    You are not logged In. Please <router-link to="/sign-up">Register</router-link> or <router-link to="/login">Login</router-link> to continue.
+                  </p>
                   <div class="ngn--bnb">
                     <label for="" class="mb-2"
                       >Enter Amount of NGN or BNB</label
@@ -33,7 +36,8 @@
                     <input type="number" class="w-100" :disabled="disabled" v-model="payload.amount_szc" name="" id="" />
                   </div>
                   <div class="mt-3 text-center">
-                    <button class="main--btn login" :disabled="disabled" @click="buyszc">Buy</button>
+                    <button class="main--btn login" @click="buyszc" v-if="isLoggedIn">Buy</button>
+                    <button class="main--btn login" @click="goToRegister" v-else>register</button>
                   </div>
                 </div>
 
@@ -149,7 +153,7 @@
         <div class="container">
             <h2 class="text-center mb-4">How it Works</h2>
             <div>
-                <p>
+              <p>
                      Sam Zugacoin is a unique brainchild that aims to rebuild Africa's dying economy by becoming Africa's first coin in equity and investment funding for Africa's government instead of China. Starting a business in Africa can often be a gargantuan task, especially since the prospects of obtaining a loan are few and far between, we will give out loans to aid businesses and encourage investors.
 <pre></pre><b> BUYSZC ACCEPTS PAYMENTS DONE MANUALLY INTO A SPECIFIC BANK ACCOUNTS or BNB Wallets AND CONFIRMATION IS DONE 3MIN AFTER A SUCCESFUL TRANSACTION. </b>
 
@@ -266,6 +270,9 @@ export default {
     },
     onError: function (e) {
        console.log('Failed to copy texts')
+    },
+    goToRegister(){
+      this.$router.push('/sign-up')
     },
     buyszc() {
       this.slide_1 = false;
