@@ -15,7 +15,7 @@
               <div class="main--calculator">
                 <!-- First Slide  -->
                 <div class="first--slide" v-show="slide_1">
-                  <p class="small text-danger text-center mb-3 font-weight-bold">
+                  <p class="small text-danger text-center mb-3 font-weight-bold" v-if="!isLoggedIn">
                     You are not logged In. Please <router-link to="/sign-up">Register</router-link> or <router-link to="/login">Login</router-link> to continue.
                   </p>
                   <div class="ngn--bnb">
