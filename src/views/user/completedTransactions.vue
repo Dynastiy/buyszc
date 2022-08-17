@@ -32,7 +32,7 @@
               <td>
                 <a
                   target="_blank"
-                  :href="'https://api.buybnb.io/' + deposit.payment_proof"
+                  :href="'https://api.buyszc.com/' + deposit.payment_proof"
                 >
                   {{ deposit.payment_proof }}
                 </a>
